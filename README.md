@@ -9,6 +9,16 @@ A completely working Job Portal created using MERN, TailwindCSS, with all the ne
 - Firebase Authentication
   
 ### ✅ Setup
+```
+git clone https://github.com/guptamudit/Job-Portal.git
+cd job-portal-client
+npm i (all the required dependencies)
+npm run dev
+
+cd job-portal-server
+npm i node express + (all other requirements)
+npm start
+```
 
 Made with 💕 , powered with ☕
 
