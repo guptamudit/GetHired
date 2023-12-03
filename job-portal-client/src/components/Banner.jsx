@@ -5,11 +5,15 @@ const Banner = ({ query, handleInputChange }) => {
   return (
     <div className="max-w-screen-2xl container mx-auto xl:px-24 px-4 md:py-20 py-14">
       <h1 className="text-5xl font-bold text-primary mb-3">
-        Find Your <span className="text-[#FF9209]">New Job</span> Today
+        Looking for <span className="text-[#FF9209]">New Job?</span>
       </h1>
+      <p className="text-lg text-black/70 ">
+        Thousands of jobs in the Engineering, Technology sector are waiting for
+        you.
+      </p>
       <p className="text-lg text-black/70 mb-8">
-        Thousands of jobs in the Computer, Engineering, Technology sector are
-        waiting for you.
+        <span className="text-[#FF9209]">What are you waiting for?</span> Apply
+        now from the jobs appearing below!
       </p>
 
       <form>
