@@ -24,7 +24,7 @@ const NewLetter = () => {
           Email Me for Jobs
         </h3>
         <p className="text-primary/75 text-base mb-4">
-          Enter your email id for landing in your dream comapany.
+          Enter your email id for landing in your dream company.
         </p>
         <div className="w-full space-y-4">
           <input
