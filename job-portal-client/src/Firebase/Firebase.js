@@ -3,13 +3,13 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "Your Key",
+  apiKey: "AIzaSyDXaVo6y4N-PG-MSO0luDWxZZ_yhSvi1PM",
   authDomain: "mern-job-portal-a7798.firebaseapp.com",
-  projectId: "Your ID",
+  projectId: "mern-job-portal-a7798",
   storageBucket: "mern-job-portal-a7798.appspot.com",
-  messagingSenderId: "Your ID",
-  appId: "Your ID",
-  measurementId: "Your ID",
+  messagingSenderId: "880062420662",
+  appId: "1:880062420662:web:2ba2d56663886aac6cb817",
+  measurementId: "G-7M97H8JS3M",
 };
 
 // Initialize Firebase
