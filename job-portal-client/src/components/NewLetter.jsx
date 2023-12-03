@@ -13,6 +13,9 @@ const NewLetter = () => {
       Swal.fire(`Entered URL: ${url}`);
     }
   };
+  const handlebutton = () => {
+    alert("Thanks for Subscribing");
+  };
   return (
     <div>
       <div>
@@ -21,7 +24,7 @@ const NewLetter = () => {
           Email Me for Jobs
         </h3>
         <p className="text-primary/75 text-base mb-4">
-          Email me for landing in your dream company with good pay.
+          Enter your email id for landing in your dream comapany.
         </p>
         <div className="w-full space-y-4">
           <input
@@ -30,13 +33,12 @@ const NewLetter = () => {
             placeholder="name@mail.com"
             className="w-full block py-2 pl-3 border focus:outline-none"
           />
-          <input
-            type="submit"
-            name="submit"
-            id="submit"
-            value={"Subscribe"}
+          <button
+            onClick={handlebutton}
             className="w-full block py-2 pl-3 border focus:outline-none bg-blue text-white cursor-pointer rounded font-semibold"
-          />
+          >
+            Subscribe
+          </button>
         </div>
       </div>
       <div className="mt-20">
