@@ -98,6 +98,9 @@ async function run() {
     console.log(
       "Pinged your deployment. You successfully connected to MongoDB!"
     );
+    app.get("/", (req, res) => {
+    res.send("Hello Developer!");
+    });
   } finally {
     // Ensures that the client will close when you finish/error
     // await client.close();
