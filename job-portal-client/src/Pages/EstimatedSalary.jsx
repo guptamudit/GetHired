@@ -6,7 +6,7 @@ const EstimatedSalary = () => {
   const [salary, setSalary] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:3000/all-jobs`)
+    fetch(`https://get-hired-eta.vercel.app/all-jobs`)
       .then((res) => res.json())
       .then((data) => setSalary(data));
   }, [searchText]);
