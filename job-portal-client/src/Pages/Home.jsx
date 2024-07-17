@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Banner from "../components/Banner";
 import Card from "../components/Card";
-import Jobs from "./jobs";
+import Jobs from "./Jobs";
 import Sidebar from "../Sidebar/Sidebar";
 import NewLetter from "../components/NewLetter";
 
